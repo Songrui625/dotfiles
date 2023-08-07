@@ -14,3 +14,4 @@ vim.o.smartcase = true
 vim.o.splitright = true
 vim.o.splitbelow = true
 vim.o.termguicolors = true
+vim.cmd('highlight NormalFloat ctermfg=LightGrey')
