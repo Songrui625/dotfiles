@@ -1,6 +1,5 @@
 vim.o.mouse = "a"
-vim.wo.number = true
-vim.o.number = true
+vim.wo.number = true vim.o.number = true
 
 vim.o.tabstop = 2
 vim.o.shiftwidth = 2
@@ -15,3 +14,4 @@ vim.o.splitright = true
 vim.o.splitbelow = true
 vim.o.termguicolors = true
 vim.cmd('highlight NormalFloat ctermfg=LightGrey')
+
