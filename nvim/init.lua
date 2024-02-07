@@ -42,11 +42,14 @@ plugins = {
         indent = { enable = true },  
       })
     end
-  }
+  },
+  --vscode theme
+  'Mofiqul/vscode.nvim'
 }
 
 require('lazy').setup(plugins, opts)
 
 require('lsp')
 
+require('vscode').load('light')
 
